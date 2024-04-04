@@ -32,7 +32,7 @@ int main() {
         printf("equal\n");
     else
         printf("not equal\n");
-        
+
     printf("----- [Park Younghyeon] [2021041019] -----]");
     return 0;
 }
