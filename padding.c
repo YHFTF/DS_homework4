@@ -12,6 +12,7 @@ int main()
     printf("size of student = %ld\n", sizeof(struct student));      //구조체 student의 크기를 출력한다.
     printf("size of int = %ld\n", sizeof(int));                     //int의 크기를 출력한다.
     printf("size of short = %ld\n", sizeof(short));                 //short의 크기를 출력한다.
+    printf("----- [Park Younghyeon] [2021041019] -----]");
     return 0;
 }
 //구조체 student의 크기는 24바이트이다. 하지만 실제 데이터 크기는 (lastName은 13바이트, studentId는 4바이트, grade는 2바이트이다(총 19바이트))이다.
