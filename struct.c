@@ -27,11 +27,11 @@ int main() {
     printf("st3.grade = %c\n", st3.grade);          //st3의 grade를 출력한다.
 
     /* equality test */
-    // st3와 st2가 가 같은지 비교한다.
-    if(st2.grade == st3.grade && st2.lastName == st3.lastName && st2.studentId == st3.studentId)        
+    // st3와 st2가 가 같은지 비교한다. 구조체를 비교 할때는 각각의 인자를 비교해야한다.
+    if(st2.grade == st3.grade && st2.lastName == st3.lastName && st2.studentId == st3.studentId)       
         printf("equal\n");
     else
         printf("not equal\n");
-        
+
     return 0;
 }
